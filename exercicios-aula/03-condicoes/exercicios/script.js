@@ -99,7 +99,7 @@ const somaNotas = (primeiraNota + segundaNota + terceiraNota) /3
 
 if(somaNotas >= 7){
   alert("Aprovado")
-}else if(somaNotas == 5 || somaNotas < 7 ){
+}else if(somaNotas == 5 && somaNotas < 7 ){
   alert("Recuperação")
 }else{ somaNotas < 5 
   alert("Que pena, você foi reprovado.")

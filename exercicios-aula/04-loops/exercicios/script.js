@@ -17,11 +17,21 @@
   inclusive esses 2
 */
 
+// for(let numero = 0; numero <= 100; numero++){
+//   console.log(numero)
+//}
+
 /* 
   2. Utilizando a estrutura de repetição for, mostre no console apenas os números pares de 1 ao 50.
   - Números pares são todos os números que dividos por 2 tem resto 0
   - Qual operador que retorna o resto da divisão? Vamos usar ele!
 */
+
+for(let numero = 1; numero <= 50; numero++){
+  if(numero%2 == 0){
+    console.log("Esse é um número par", numero)
+  }
+}
 
 
 /* 
