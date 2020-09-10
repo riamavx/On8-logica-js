@@ -9,20 +9,29 @@
 /* 
   1. Declare uma variável const com a mensagem 'Olá Mundo', exiba no console
 
-*/
 
+*/
+const saudacao = "Olá Mundo"
+console.log(saudacao)
 /* 
   2. Declare uma variável let chamada anoNascimento sem atribuir valor
 
 */
 
+let anoNascimento
+
 /* 
   3. Atribuía o ano que você nasceu na variável anoNascimento e exiba no console
 */
-
+let anoNascimento = "23.06.94";
 /* 
   4. Declare uma variável chamada `gostoDeProgramar`, atribuindo à ela o valor booleano que representa `verdadeiro` e exiba no console.
 */
+
+const gostoDeProgramar = false;
+
+console.log(gostoDeProgramar);
+
 
 
 /* 
@@ -30,4 +39,6 @@
      ex: console.log(typeof variavel)
 */
 
-
+console.log(typeof saudacao)
+console.log(typeof anoNascimento)
+console.log(typeof gostoDeProgramar)
