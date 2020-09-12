@@ -26,6 +26,13 @@
   Obs: Utilizar o Number() para converter o tipo da variável em número.
 */
 
+// let numeroA = parseInt(prompt('Digite um número qualquer'));
+// let numeroB = parseInt(prompt('Digite um número qualquer'));
+
+// let somaDosNumeros = numeroA + numeroB;
+
+
+// alert(somaDosNumeros);
 
 /* 
   2. Crie um algoritmo que leia o valor de um jantar, calcule e informe o valor da taxa do garçom (10%) e o valor total a ser pago.
@@ -37,6 +44,15 @@
   Obs: Utilizar o Number() para converter o tipo para numero dos dados.
 */
 
+const  valorDoJantar = Number (prompt("Informe o valor do Jantar"))
+const taxaDoGarcom = valorDoJantar * 0.10;
+
+const valorTotalDoJantar = valorDoJantar + taxaDoGarcom;
+
+
+
+console.log(valorTotalDoJantar)
+
 
 
 /* 
@@ -47,6 +63,32 @@
     - Saída: Exibir no console a mensagem "O valor A é o valor B, Resposta"
  
 */
+
+
+//  let numeroA = Number(prompt('Digite um número qualquer'));
+//  let numeroB = Number(prompt('Digite um número qualquer'));
+
+// const comparador = (numeroA, numeroB) => {
+//   if(numeroA === numeroB)
+//     return true
+//   else
+//     return false
+// }
+
+
+
+// alert(comparador(numeroA, numeroB))
+
+
+
+// let numeroA = Number(prompt('Digite um número qualquer'));
+// let numeroB = Number(prompt('Digite um número qualquer'));
+
+
+
+// const comparacaoDeValores = numeroA === numeroB
+
+// alert(comparacaoDeValores)
 
 
 
