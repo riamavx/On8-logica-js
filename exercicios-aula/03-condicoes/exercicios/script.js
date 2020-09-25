@@ -13,6 +13,37 @@
 /* 
   1. Elabore um algoritmo que receba uma letra e determine se é uma vogal ou consoante (Faça duas versões deste código, uma utilizando if-else e outra utilizando switch-case);
 */
+// const letrasDoAlfabeto = prompt("Digite uma letra, bença")
+
+// switch (letrasDoAlfabeto) {
+//   case 'a':
+
+//   case 'e':
+
+//   case 'i':
+
+//   case 'o':
+
+//   case 'u':
+
+//     alert(`Sua letra ${letrasDoAlfabeto} é uma vogal`);
+//     break
+//   default:
+//     alert(`Sua letra ${letrasDoAlfabeto} é consoante`);
+// }
+
+// //outra forma de responder a questão
+// const letra = prompt('digite uma letra');
+
+// if (letra === 'a'||
+//  letra === 'e' ||
+//   letra === 'i' ||
+//   letra === 'o' ||
+//   letra === 'u') {
+//     alert('vogal');
+// } else {
+//     alert('consoante');
+// }
 
 /* 
   2. Elabore um algoritmo que receba um número (1-7) e devolva o dia da semana correspondente;
@@ -71,7 +102,7 @@
 // }else{
 //   alert(" O número B é maior")
 // }
-  
+
 
 
 
@@ -90,18 +121,19 @@
 */
 
 
-let primeiraNota = Number( prompt (`Digite sua primeira nota`));
-let segundaNota = Number( prompt (`Digite sua segunda nota`));
-let terceiraNota = Number( prompt (`Digite sua terceira nota`));
+let primeiraNota = Number(prompt(`Digite sua primeira nota`));
+let segundaNota = Number(prompt(`Digite sua segunda nota`));
+let terceiraNota = Number(prompt(`Digite sua terceira nota`));
 
 
-const somaNotas = (primeiraNota + segundaNota + terceiraNota) /3
+const somaNotas = (primeiraNota + segundaNota + terceiraNota) / 3
 
-if(somaNotas >= 7){
+if (somaNotas >= 7) {
   alert("Aprovado")
-}else if(somaNotas == 5 && somaNotas < 7 ){
+} else if (somaNotas == 5 && somaNotas < 7) {
   alert("Recuperação")
-}else{ somaNotas < 5 
+} else {
+  somaNotas < 5
   alert("Que pena, você foi reprovado.")
 
 }

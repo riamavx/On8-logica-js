@@ -44,14 +44,14 @@
   Obs: Utilizar o Number() para converter o tipo para numero dos dados.
 */
 
-const  valorDoJantar = Number (prompt("Informe o valor do Jantar"))
-const taxaDoGarcom = valorDoJantar * 0.10;
+// const  valorDoJantar = Number (prompt("Informe o valor do Jantar"))
+// const taxaDoGarcom = valorDoJantar * 0.10;
 
-const valorTotalDoJantar = valorDoJantar + taxaDoGarcom;
+// const valorTotalDoJantar = valorDoJantar + taxaDoGarcom;
 
 
 
-console.log(valorTotalDoJantar)
+// console.log(valorTotalDoJantar)
 
 
 
@@ -97,18 +97,32 @@ console.log(valorTotalDoJantar)
 
 // 4. Declare uma nova variável chamada `calculadora`, e adicione uma instrução somando os valores 10 e 5.
 
-let calculadora = 10 + 5
+//let calculadora = 10 + 5
 
 // 5.  Atribua à variável `calculadora` todo o valor dela, somando 1, usando o operador de soma abreviado.
 
-calculadora++ 
+//calculadora++ 
 
 
 // 6. Atribua à variável `calculadora` todo o valor dela, multiplicando por 3, usando o operador de multiplicação abreviado.
 
-calculadora *= 3
+//calculadora *= 3
 
 
 // 7. Qual é o valor da variável `calculadora` até aqui?
 
-console.log(calculadora)
+//console.log(calculadora)
+
+
+
+
+
+// Crie uma função que recebe 2 parâmetro e retorna a multiplicação
+
+ function multiplicar (numero1, numero2){
+  return numero1 * numero2
+
+ }
+
+ console.log(20,5)
+ 
